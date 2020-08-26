@@ -1,0 +1,137 @@
+
+head{
+
+	width:auto;
+ }
+ body{
+	background-image: url("gifs/universo.png");
+	background-size: contain;
+	 color : white;
+	 width: auto;
+	 
+ 
+ }
+ footer{
+	 text-align: center;
+ }
+ h1 {
+	 font-size: 70px;
+	 margin-top: 10px; 
+	 margin-bottom: 70px;
+	 color: white;
+ }
+ section{
+	 margin: 150px;
+	 border-radius: 15px;
+	 background-image: url(https://i.pinimg.com/originals/53/d1/a5/53d1a5ce0735ed40c5f1e4735f6b6fd9.jpg); 
+	 font-size: 18px;
+	 text-anchor: 20px;
+	 border: 1px solid transparent;
+	 word-wrap: break-word; 
+	 margin-top: 60px; 
+	 margin-bottom: 60px;
+	width:auto;
+ 
+ }
+ h3{
+	 font-size:  20px;
+ }
+ 
+ #container{
+	 height: 100;
+	 text-align: justify;
+	 position: absolute;
+	 display:inline-block;
+	 display:table;
+	 
+ }
+ 
+ #sub1{
+	 background: solid;
+ font-size: 30px;
+ 
+ }
+ #sub2{
+	 background: transparent;
+ font-size: 30px;
+ }
+ #secciones li {
+  display: inline;
+  padding-left:3px;
+  padding-right:3px;
+  font-size: 50px;
+
+  }
+
+  li{
+	  font-size: 50px;
+  }
+ 
+  .titulo{
+	  text-align: center;
+	  font-family: 'Courier New', Courier, monospace;
+	  color: #10425C;
+	 text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #6ac7c2;
+	  
+  }
+
+ 
+  #tunombre{
+	  font-size: 30px;
+	  margin: 10px;
+	  margin-bottom: 60px;
+	  
+  }
+ 
+  .lista{
+	display: inline; 
+	width: 80%;
+	 display: flex;
+	  justify-content:  center; 
+	  text-align: center;
+	   margin-left: 250px;
+	   list-style-type: none;
+	   padding-right: 5px;
+	   padding-top: 10px;
+		
+  }
+ 
+ section table tr td {
+	 padding:15px;
+	 border: white 2px solid;
+ }
+.cuadros{
+	display: flex;
+  justify-content: center;
+  align-items: center;
+}
+table{
+	border: white 2px solid;
+	border-collapse: collapse;
+}
+td{
+	
+}
+
+ .div-img .img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+ padding-right: 10px;
+  transform: scale(1);
+  -ms-transform: scale(1);
+  -moz-transform: scale(1);
+  -webkit-transform: scale(1);
+  -o-transform: scale(1);
+  -webkit-transition: all 500ms ease-in-out;
+  -moz-transition: all 500ms ease-in-out;
+  -ms-transition: all 500ms ease-in-out;
+  -o-transition: all 500ms ease-in-out;
+}
+.div-img:hover .img {
+  transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  -o-transform: scale(1.2);
+}
