@@ -1,3 +1,9 @@
+/* Seccion Navegacion*/
+
+
+
+/* ------------*/
+
 
 head{
 
@@ -5,10 +11,10 @@ head{
  }
  body{
 	background-image: url("gifs/universo.png");
-	background-size: contain;
+	background-size: cover;
 	 color : white;
 	 width: auto;
-	 
+	
  
  }
  footer{
@@ -55,17 +61,12 @@ head{
 	 background: transparent;
  font-size: 30px;
  }
- #secciones li {
-  display: inline;
-  padding-left:3px;
-  padding-right:3px;
-  font-size: 50px;
+ #secciones{
+	 background-color: #10425C;
+ }
 
-  }
 
-  li{
-	  font-size: 50px;
-  }
+  
  
   .titulo{
 	  text-align: center;
