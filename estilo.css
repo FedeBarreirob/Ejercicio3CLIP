@@ -1,118 +1,104 @@
-/* Seccion Navegacion*/
-
-
-
-/* ------------*/
-
-
-head{
-
-	width:auto;
- }
- body{
+/* Body general */
+body{
 	background-image: url("gifs/universo.png");
 	background-size: cover;
 	 color : white;
 	 width: auto;
-	
- 
  }
- footer{
-	 text-align: center;
+ head{
+
+	width:auto;
  }
  h1 {
-	 font-size: 70px;
-	 margin-top: 10px; 
-	 margin-bottom: 70px;
-	 color: white;
- }
- section{
-	 margin: 150px;
-	 border-radius: 15px;
-	 background-image: url(https://i.pinimg.com/originals/53/d1/a5/53d1a5ce0735ed40c5f1e4735f6b6fd9.jpg); 
-	 font-size: 18px;
-	 text-anchor: 20px;
-	 border: 1px solid transparent;
-	 word-wrap: break-word; 
-	 margin-top: 60px; 
-	 margin-bottom: 60px;
-	width:auto;
- 
- }
- h3{
-	 font-size:  20px;
- }
- 
- #container{
-	 height: 100;
-	 text-align: justify;
-	 position: absolute;
-	 display:inline-block;
-	 display:table;
-	 
- }
- 
- #sub1{
-	 background: solid;
- font-size: 30px;
- 
- }
- #sub2{
-	 background: transparent;
- font-size: 30px;
- }
- #secciones{
-	 background-color: #10425C;
- }
+	font-size: 70px;
+	margin-top: 10px; 
+	margin-bottom: 70px;
+	color: white;
+}
+
+h3{
+	font-size:  20px;
+}
+/*   -----------------     */
 
 
-  
- 
-  .titulo{
-	  text-align: center;
-	  font-family: 'Courier New', Courier, monospace;
-	  color: #10425C;
-	 text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #6ac7c2;
-	  
-  }
+/* Seccion detalle*/
+section{
+	margin: 150px;
+	border-radius: 15px;
+	background-image: url(https://i.pinimg.com/originals/53/d1/a5/53d1a5ce0735ed40c5f1e4735f6b6fd9.jpg); 
+	font-size: 18px;
+	text-anchor: 20px;
+	border: 1px solid transparent;
+	word-wrap: break-word; 
+	margin-top: 60px; 
+	margin-bottom: 60px;
+   width:auto;
 
- 
-  #tunombre{
-	  font-size: 30px;
-	  margin: 10px;
-	  margin-bottom: 60px;
-	  
-  }
- 
-  .lista{
+}
+#container{
+	height: 100;
+	text-align: justify;
+	position: absolute;
+	display:inline-block;
+	display:table;
+	
+}
+#sub1{
+	background: solid;
+font-size: 30px;
+
+}
+#sub2{
+	background: transparent;
+font-size: 30px;
+}
+#secciones{
+	background-color: #10425C;
+}
+.titulo{
+	text-align: center;
+	font-family: 'Courier New', Courier, monospace;
+	color: #10425C;
+   text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #6ac7c2;
+	
+}
+.lista{
 	display: inline; 
 	width: 80%;
-	 display: flex;
-	  justify-content:  center; 
-	  text-align: center;
-	   margin-left: 250px;
-	   list-style-type: none;
-	   padding-right: 5px;
-	   padding-top: 10px;
-		
+    display: flex;
+    justify-content:  center; 
+    text-align: center;
+    margin-left: 250px;
+    list-style-type: none;
+    padding-right: 5px;
+    padding-top: 10px;	
   }
- 
- section table tr td {
-	 padding:15px;
-	 border: white 2px solid;
- }
-.cuadros{
+  .cuadros{
 	display: flex;
   justify-content: center;
   align-items: center;
 }
+/* ------------*/
+
+
+/* Tablas */
 table{
 	border: white 2px solid;
 	border-collapse: collapse;
 }
-td{
-	
+section table tr td {
+	padding:15px;
+	border: white 2px solid;
 }
+/* ---------------- */
+
+  
+ 
+
+/* Efecto acercamiento imagenes */
+
+
 
  .div-img .img {
   display: block;
@@ -136,3 +122,12 @@ td{
   -webkit-transform: scale(1.2);
   -o-transform: scale(1.2);
 }
+/* ---------------------- */
+
+/* Footer */
+
+footer{
+	text-align: center;
+}
+
+/* ------------------ */
